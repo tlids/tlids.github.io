@@ -22,7 +22,7 @@ Since WTWY has a limited amount of free tickets to hand out for their annual gal
 
 We collected our data sets through the Metropolitan Transportation Authority website. Since the data sets are weekly, we create a python function using to download these txt files instead of scrapping many files individually (efficiency, woohoo!). Nevertheless, the raw data is still far from being in a nice and clean format that we can easily work with, so we took steps to clean the data, such as converting dates into date objects, adding day of the week and dropping unnecessary columns. In the end, we obtained a set of clean data from April to June in 2016.
 
-![png](data example.png)
+![png]('https://github.com/tlids/tlids.github.io/blob/master/images/data%20example.png')
 
 
 ## Analyze the Data
