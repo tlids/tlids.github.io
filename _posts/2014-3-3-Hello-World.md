@@ -20,7 +20,7 @@ Since WTWY has a limited amount of free tickets to hand out for their annual gal
 
 ## Data Scraping & Data Wrangling
 
-We collected our data sets through the Metropolitan Transportation Authority website. Since the data sets are weekly, we create a python function using to download these txt files instead of scrapping many files individually (efficiency, woohoo!). Nevertheless, the raw data is still far from being in a nice and clean format that we can easily work with, so we took steps to clean the data, such as converting dates into date objects, adding day of the week and dropping unnecessary columns. In the end, we obtained a set of clean data from April to June in 2016.
+We collected our data sets through the Metropolitan Transportation Authority website. Because the data sets are weekly, we created a python function using to download these txt files instead of scrapping many files individually (efficiency, woohoo!). Nevertheless, the raw data was still far from being in a nice and clean format that we can easily work with, so we took steps to clean the data, such as converting dates into date objects, adding day of the week and dropping unnecessary columns. In the end, we obtained a set of clean data from April to June in 2016.
 
 ![an image alt text]({{ site.baseurl }}/images/data example.png "an image title")
 
@@ -64,5 +64,7 @@ The graph below shows that, compared to the top 50 stations, the average traffic
 We also compared the number of riderships throughout the week for the 10 target stations in the graph below. Consistent with previous finding, these stations are also more popular on Wednesday.
 
 ![an image alt text]({{ site.baseurl }}/images/target station week graph.png "an image title")
+
+Finally, we concluded that our client WTWY should focus their marketing efforts on Wednesday in June at the 10 stations shown below.
 
 ![an image alt text]({{ site.baseurl }}/images/final rec.png "an image title")
