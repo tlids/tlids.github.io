@@ -56,6 +56,11 @@ Next, through mapping the stations with their corresponding zip codes using a re
 9. BOROUGH HALL (36)
 10. 33 ST (40)
 
+![an image alt text]({{ site.baseurl }}/images/top stations riderships.png "an image title")
+
+![an image alt text]({{ site.baseurl }}/images/station map.png "an image title")
+
+
 The graph below shows that, compared to the top 50 stations, the average traffic is much higher for our 10 target stations, meaning that we can reach out to more potential attendees by stationing the marketing folks there.
 
 ![an image alt text]({{ site.baseurl }}/images/target station avg traffic.png "an image title")
