@@ -18,20 +18,16 @@ Even though we were given a fairly short timeline (1 week), we managed to captur
 
 Since WTWY has a limited amount of free tickets to hand out for their annual gala, we decided to set the goal to be maximizing attendance at the gala with individuals who are most likely to make donations and contribute the cause. 
 
-Data Scraping & Data Wrangling
+## Data Scraping & Data Wrangling
 
 We collected our data sets through the Metropolitan Transportation Authority website. Since the data sets are weekly, we create a python function using to download these txt files instead of scrapping many files individually (efficiency, woohoo!). Nevertheless, the raw data is still far from being in a nice and clean format that we can easily work with, so we took steps to clean the data, such as converting dates into date objects, adding day of the week and dropping unnecessary columns. In the end, we obtained a set of clean data from April to June in 2016.
 
-
-
-
+![png](data example.png)
 
 
 ## Analyze the Data
 
 Using the MTA data, we were able to calculate the number of entries for a specific station and time, which give us an idea of which stations and dates generate the most traffic. In addition, we used the list of top 10 zip codes with the most venture capital funding raised by technology companies (between Jan 1st to July 31st in 2016) in NYC as a proxy for where individuals who are passionate about technology are likely to be. It became clear that we wanted to target the overlapping section of these criteria, which are stations with heavy foot traffic that are also in the top 10 zip codes by venture capital funding on the busiest day and month.
-
-
 
 
 
