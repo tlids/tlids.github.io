@@ -29,16 +29,18 @@ We collected our data sets through the Metropolitan Transportation Authority web
 
 Using the MTA data, we were able to calculate the number of entries for a specific station and time, which give us an idea of which stations and dates generate the most traffic. In addition, we used the list of top 10 zip codes with the most venture capital funding raised by technology companies (between Jan 1st to July 31st in 2016) in NYC as a proxy for where individuals who are passionate about technology are likely to be. It became clear that we wanted to target the overlapping section of these criteria, which are stations with heavy foot traffic that are also in the top 10 zip codes by venture capital funding on the busiest day and month.
 
+![an image alt text]({{ site.baseurl }}/images/funding graph.png "an image title")
 
+![an image alt text]({{ site.baseurl }}/images/venn diagram.png "an image title")
 
 ## Visualize and Present Findings
 
 Our data showed that compared to April and May, June had 4000 more ridership on average. Days in the middle of the week, especially Wednesday, generate a higher traffic. This is pretty intuitive since people are more likely to take day off from work toward the beginning or ending of Monday - Friday. Weekend’s subway riderships are a lot lower, indicating that people are not utilizing public transportation as much on weekends.
 
 
+![an image alt text]({{ site.baseurl }}/images/month boxplot.png "an image title")
 
-
-
+![an image alt text]({{ site.baseurl }}/images/week graph.png "an image title")
 
 
 Next, through mapping the stations with their corresponding zip codes using a reverse geocoding process and analyzing the number of entries for each station, we found the following stations to be in the target zip codes and top 50 stations in terms of foot traffic. The number in the parentheses represent the station’s ranking in terms of average foot traffic in June.
@@ -56,7 +58,11 @@ Next, through mapping the stations with their corresponding zip codes using a re
 
 The graph below shows that, compared to the top 50 stations, the average traffic is much higher for our 10 target stations, meaning that we can reach out to more potential attendees by stationing marketing folks there.
 
-
+![an image alt text]({{ site.baseurl }}/images/target station avg traffic.png "an image title")
 
 
 We also compared the number of riderships throughout the week for the 10 target stations in the graph below. Consistent with previous finding, these stations are also more popular on Wednesday.
+
+![an image alt text]({{ site.baseurl }}/images/target station week graph.png "an image title")
+
+![an image alt text]({{ site.baseurl }}/images/final rec.png "an image title")
