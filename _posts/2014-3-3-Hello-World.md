@@ -35,7 +35,7 @@ Using the MTA data, we were able to calculate the number of entries for a specif
 
 ## Visualize and Present Findings
 
-Our data showed that compared to April and May, June had 4000 more ridership on average. Days in the middle of the week, especially Wednesday, generate a higher traffic. This is pretty intuitive since people are more likely to take day off from work toward the beginning or ending of Monday - Friday. Weekend’s subway riderships are a lot lower, indicating that people are not utilizing public transportation as much on weekends.
+Our data showed that compared to April and May, June had 4000 more ridership on average. Days in the middle of the week, especially Wednesday, generate higher traffic. This is pretty intuitive since people are more likely to take day off from work toward the beginning or ending of Monday - Friday. Weekend’s subway riderships are a lot lower, indicating that people are not utilizing public transportation as much on weekends.
 
 
 ![an image alt text]({{ site.baseurl }}/images/month boxplot.png "an image title")
@@ -43,7 +43,7 @@ Our data showed that compared to April and May, June had 4000 more ridership on 
 ![an image alt text]({{ site.baseurl }}/images/week graph.png "an image title")
 
 
-Next, through mapping the stations with their corresponding zip codes using a reverse geocoding process and analyzing the number of entries for each station, we found the following stations to be in the target zip codes and top 50 stations in terms of foot traffic. The number in the parentheses represent the station’s ranking in terms of average foot traffic in June.
+Next, through mapping the stations with their corresponding zip codes using a reverse geocoding process and analyzing the number of entries for each station, we found the following stations to be both in the target zip codes and top 50 stations in terms of foot traffic. The number in the parentheses represent the station’s ranking in terms of average foot traffic in June.
 
 1. GRD CNTRL-42 ST (2)
 2. 34 ST-HERALD SQ (3)
@@ -56,7 +56,7 @@ Next, through mapping the stations with their corresponding zip codes using a re
 9. BOROUGH HALL (36)
 10. 33 ST (40)
 
-The graph below shows that, compared to the top 50 stations, the average traffic is much higher for our 10 target stations, meaning that we can reach out to more potential attendees by stationing marketing folks there.
+The graph below shows that, compared to the top 50 stations, the average traffic is much higher for our 10 target stations, meaning that we can reach out to more potential attendees by stationing the marketing folks there.
 
 ![an image alt text]({{ site.baseurl }}/images/target station avg traffic.png "an image title")
 
