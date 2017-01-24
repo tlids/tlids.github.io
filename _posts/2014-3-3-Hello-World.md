@@ -64,4 +64,3 @@ The graph below shows that, compared to the top 50 stations, the average traffic
 
 
 We also compared the number of riderships throughout the week for the 10 target stations in the graph below. Consistent with previous finding, these stations are also more popular on Wednesday.
-
