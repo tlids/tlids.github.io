@@ -1,0 +1,6 @@
+For the second project at Metis, I decided to build a model to predict gross revenue for animation films. 
+
+The first step was to collect the data I needed. Using python package Beautiful Soup, I scraped data from IMDB.com for the top 400 gross animations films. Collecting data from a html page and turning them into workable was a challenging task. Fortunately, we learnt some basic elements of html to better understand how to retrieve data from a web page.
+
+
+
