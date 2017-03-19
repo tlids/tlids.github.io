@@ -7,7 +7,7 @@ To get the raw json file into a dataframe that I can easily work with, I spent a
 The Yelp dataset has a binary variable ‘is_open’: 1 if the restaurant is open and 0 if the restaurant is closed. Out of the 5,431 data points, about 30% of them are closed. I decided to use this as a proxy of the successfulness of a restaurant. Even though a lot of restaurant close down for reasons other than restaurant not being successful, such as change of career, it is very likely that unsuccessful restaurants would close. 
 
 I used the following features to predict if the restaurant is open: 
-Numeric 
+* Numeric 
 Review count
 Yelp star
 Price range
