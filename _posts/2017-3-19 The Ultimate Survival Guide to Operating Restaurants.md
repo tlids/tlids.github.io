@@ -8,25 +8,26 @@ The Yelp dataset has a binary variable ‘is_open’: 1 if the restaurant is ope
 
 I used the following features to predict if the restaurant is open: 
 * Numeric 
-Review count
-Yelp star
-Price range
-Categorical
-Type of Meal (Dessert, late night, lunch, dinner, breakfast)
-Is downtown
-Good for groups
-Take out
-Good for kids
-Attire is casual
-Takes reservation
-Has outdoor seating
-Offers delivery
-Has alcohol
-Has TV
-Noisy
-Wifi (No, Free, Paid)
-Ambience is casual
-Restaurant categories (Nightlife, bar, fast food, Mexican, Chinese, Sandwiches, Seafood, etc)
+** Review count
+** Yelp star
+** Price range
+
+* Categorical
+** Type of Meal (Dessert, late night, lunch, dinner, breakfast)
+** Is downtown
+** Good for groups
+** Take out
+** Good for kids
+** Attire is casual
+** Takes reservation
+** Has outdoor seating
+** Offers delivery
+** Has alcohol
+** Has TV
+** Noisy
+** Wifi (No, Free, Paid)
+** Ambience is casual
+** Restaurant categories (Nightlife, bar, fast food, Mexican, Chinese, Sandwiches, Seafood, etc)
 
 Alright, onto the fun part of modeling! To evaluate my models, I splitted my scaled data into a train set and a test set so I could try my model on the test set data and compare the accuracy score of different algorithms. 
 
