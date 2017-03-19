@@ -6,28 +6,27 @@ To get the raw json file into a dataframe that I can easily work with, I spent a
 
 The Yelp dataset has a binary variable ‘is_open’: 1 if the restaurant is open and 0 if the restaurant is closed. Out of the 5,431 data points, about 30% of them are closed. I decided to use this as a proxy of the successfulness of a restaurant. Even though a lot of restaurant close down for reasons other than restaurant not being successful, such as change of career, it is very likely that unsuccessful restaurants would close. 
 
-I used the following features to predict if the restaurant is open: 
-* Numeric 
-** Review count
-** Yelp star
-** Price range
+I used the following numeric features to predict if the restaurant is open: 
+* Review count
+* Yelp star
+* Price range
 
-* Categorical
-** Type of Meal (Dessert, late night, lunch, dinner, breakfast)
-** Is downtown
-** Good for groups
-** Take out
-** Good for kids
-** Attire is casual
-** Takes reservation
-** Has outdoor seating
-** Offers delivery
-** Has alcohol
-** Has TV
-** Noisy
-** Wifi (No, Free, Paid)
-** Ambience is casual
-** Restaurant categories (Nightlife, bar, fast food, Mexican, Chinese, Sandwiches, Seafood, etc)
+And the following categorical features:
+* Type of Meal (Dessert, late night, lunch, dinner, breakfast)
+* Is downtown
+* Good for groups
+* Take out
+* Good for kids
+* Attire is casual
+* Takes reservation
+* Has outdoor seating
+* Offers delivery
+* Has alcohol
+* Has TV
+* Noisy
+* Wifi (No, Free, Paid)
+* Ambience is casual
+* Restaurant categories (Nightlife, bar, fast food, Mexican, Chinese, Sandwiches, Seafood, etc)
 
 Alright, onto the fun part of modeling! To evaluate my models, I splitted my scaled data into a train set and a test set so I could try my model on the test set data and compare the accuracy score of different algorithms. 
 
