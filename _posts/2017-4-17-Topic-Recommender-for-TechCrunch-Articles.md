@@ -20,10 +20,10 @@ So instead of applying a clustering techniques, I decided to use a simple rule t
 
 Despite the simpleness, the method worked pretty well on the 50 topics. A couple of examples:
 
-User types ‘HTC’: BlackBerry, Nokia, and Iphone are recommended
-User types ‘Facebook’: Facebook-Messenger, Facebook-Ipo and Facebook-Whatsapp are recommended
-User types ‘Twitter’: Jack-Dorsey, Vine, and Twitter-Vine are recommended
-User types ‘Tesla’: Windows-10, FlipBoard, and Raspberry-Pi are recommended
+1. User types ‘HTC’: BlackBerry, Nokia, and Iphone are recommended
+2. User types ‘Facebook’: Facebook-Messenger, Facebook-Ipo and Facebook-Whatsapp are recommended
+3. User types ‘Twitter’: Jack-Dorsey, Vine, and Twitter-Vine are recommended
+4. User types ‘Tesla’: Windows-10, FlipBoard, and Raspberry-Pi are recommended
 
 Obviously, there are some constraints on this recommendation system. For instance, since there aren’t a lot of topics similar to Tesla in my dataset, Windows-10 is the closest topic recommended which is probably not what the user wanted to see. However, as demonstrated by other examples, the method worked well for most cases.
 
