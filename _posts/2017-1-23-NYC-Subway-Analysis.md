@@ -27,7 +27,7 @@ We collected our data sets through the Metropolitan Transportation Authority web
 
 ## Analyze the Data
 
-Using the MTA data, we were able to calculate the number of entries for a specific station and time, which give us an idea of which stations and dates generate the most traffic. In addition, we used the list of top 10 zip codes with the most venture capital funding raised by technology companies (between Jan 1st to July 31st in 2016) in NYC as a proxy for where individuals who are passionate about technology are likely to be. It became clear that we wanted to target the overlapping section of these criteria, which are stations with heavy foot traffic that are also in the top 10 zip codes by venture capital funding on the busiest day and month.
+Using the MTA data, we were able to calculate the number of entries for a specific station and time, which gives us an idea of which stations and dates generate the most traffic. In addition, we used the list of top 10 zip codes with the most venture capital funding raised by technology companies (between Jan 1st to July 31st in 2016) in NYC as a proxy for where individuals who are passionate about technology are likely to be. It became clear that we wanted to target the overlapping section of these criteria, which are stations with heavy foot traffic that are also in the top 10 zip codes by venture capital funding on the busiest day and month.
 
 ![an image alt text]({{ site.baseurl }}/images/funding graph.png "an image title")
 
